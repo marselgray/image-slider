@@ -9,34 +9,63 @@
 </head>
 <body>
 
+	<h3>Simple Javascript Image Carousel</h3>
 	<div class="carousel--container">
+		<div class="button--container">
+			<button class='button button-prev' id="prev"></button>
+			<button class='button button-next' id="next"></button>
+		</div>
+
 		<div class="carousel--slide">
-			<img srcset="img/fitness.jpg 300w, img/fitness.jpg 1000w"
+			<img srcset="img/mountains.jpg 300w, img/mountains.jpg 1000w"
 				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-				alt="Photo 1"
-				src="img/fitness.jpg"
+				alt="Photo 5"
+				src="img/mountains.jpg"
 				class=""
 				id="lastClone">
 		
 			<img srcset="img/jump.jpg 300w, img/jump.jpg 1000w"
 				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-				alt="Photo 2"
+				alt="Photo 1"
 				src="img/jump.jpg"
 				class="">
-		
-			<img srcset="img/motorcycle.jpg 300w, img/motorcycle.jpg 1000w"
+
+			<img srcset="img/music.jpg 300w, img/music.jpg 1000w"
+				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+				alt="Photo 2"
+				src="img/music.jpg"
+				class="">
+
+			<img srcset="img/fitness.jpg 300w, img/fitness.jpg 1000w"
 				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
 				alt="Photo 3"
-				src="img/motorcycle.jpg"
+				src="img/fitness.jpg"
+				class="">
+
+			<img srcset="img/europe.jpg 300w, img/europe.jpg 1000w"
+				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+				alt="Photo 4"
+				src="img/europe.jpg"
+				class="">
+
+			<img srcset="img/mountains.jpg 300w, img/mountains.jpg 1000w"
+				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+				alt="Photo 5"
+				src="img/mountains.jpg"
+				class="">
+		
+			<img srcset="img/jump.jpg 300w, img/jump.jpg 1000w"
+				sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+				alt="Photo 1"
+				src="img/jump.jpg"
 				class=""
-				id='firstclone'>
+				id='firstClone'>
 		</div>
 
 	</div>
 
 
-	<button id="prev">Previous</button>
-	<button id="next">Next</button>
+
 
 
 	<script src='scripts.js'></script>

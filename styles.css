@@ -15,11 +15,19 @@ html{
 	font-size: 62.5%;
 }
 
+h3{
+	font-size: 30px;
+	text-align: center;
+	margin: 3rem auto;
+}
+
 
 .carousel--container{
 	width: 60%;
 	margin: 0 auto;
 	border: 5px solid red;
+	overflow: hidden;
+	position: relative;
 }
 
 .carousel--slide{
@@ -31,4 +39,30 @@ html{
 img{
 	width: 100%;
 	height: auto;
+}
+
+.button--container{
+	position: absolute;
+	background-color: red;
+	width: 100%;
+	height: 100%;
+}
+
+.button{
+	padding: 1rem;
+	border-radius: 1rem;
+	width: 2rem;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.button-prev{
+	background-color: blue;
+}
+
+.button-next{
+	background-color: green;
+	left: 95%
 }
